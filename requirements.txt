@@ -1,0 +1,11 @@
+
+ConfigArgParse
+opencv-python
+pandas
+smplx
+torch==1.1.0
+scipy
+chumpy
+trimesh
+numpy
+pyrender
