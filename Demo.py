@@ -198,6 +198,8 @@ def understanding_3d_model_params_module(**args):
 
 if __name__ == "__main__":
     args = parse_config()
+    if not os.path.exists(args['output_folder']):
+        os.mkdir(args['output_folder'])
     main(**args)
     # understanding_3d_model_params_module(**args)
     pass
