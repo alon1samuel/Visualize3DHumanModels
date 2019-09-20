@@ -6,9 +6,12 @@ This tool supports 2 modules
 ### Visualize single mesh
 Run the following script:
 
+`
 python Demo.py --image_path input/img.jpg 
 --smpl_params_path input/img_3d_params.pkl 
 --smpl_model_folder {PATH TO SMPL MODEL}
+`
+
 ### Visualize multiple meshes
 Run the same script but change Demo.py to run the function named understanding_3d_model_params_module
 
