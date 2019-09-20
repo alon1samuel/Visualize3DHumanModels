@@ -29,6 +29,8 @@ download SMPL models from - http://smpl.is.tue.mpg.de/downloads
 2. Take the pkl files from smpl/models folder (in the folder you've extracted) and transfer them to smpl/ folder.
 3. Rename the files to SMPL_MALE and SMPL_FEMALE accordingly.
 
+## Output Example
+![](input/example.png)
 
 Hope it helps!!
 @Alon Samuel
